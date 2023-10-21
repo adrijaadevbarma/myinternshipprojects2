@@ -12,7 +12,7 @@ def generate_password(length=12):
     if length < 8:
         length = 8
     
-    password = ''.join(secrets.choice(all_chars) for _ in range(length))
+    password = ''.join(random.choice(all_chars) for _ in range(length))
     
     return password
 
