@@ -1,5 +1,5 @@
 import string
-import secrets
+import random
 
 def generate_password(length=12):
     upper_chars = string.ascii_uppercase
