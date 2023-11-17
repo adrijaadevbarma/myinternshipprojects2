@@ -10,7 +10,7 @@ def introduction():
     time.sleep(1)
     print("You see three paths leading in different directions.")
     time.sleep(1)
-    print("Your adventure begins")
+    print("Your adventure begins!")
 def make_choice():
     print("\nChoose your path:")
     print("1. Take the left path.")
