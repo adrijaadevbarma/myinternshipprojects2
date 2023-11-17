@@ -28,6 +28,7 @@ def left_path():
     print("Solve the riddle to gain a reward.")
 
     riddle = "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?"
+    print(riddle)
     answer = input("\nYour answer: ").lower()
 
     if answer == "an echo":
